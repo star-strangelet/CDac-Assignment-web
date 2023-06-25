@@ -1,0 +1,63 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+body {
+  background-color: rgba(194, 194, 194, 0.992);
+}
+.btn-circle {
+  border-radius: 20px;
+  background-color: blueviolet;
+  border-color: blueviolet;
+}
+.navbar-toggler {
+  border: 2px solid rgb(63, 57, 57);
+}
+.navbar-nav > li {
+  position: relative;
+}
+.navbar-nav .active {
+  border-bottom: 2px solid blueviolet;
+}
+.navbar-nav > li a {
+  margin-top: 0.3rem;
+  margin-right: 0.8rem;
+  font-size: 0.9rem;
+}
+.navbar-brand img {
+  height: 3.5rem;
+  margin-right: 1rem;
+}
+.navbar-nav > li button {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.headline {
+  background-color: white;
+}
+.popular p {
+  font-weight: bold;
+}
+.popular span {
+  border-bottom: 2px solid blueviolet;
+}
+.test .bold {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.test .nor {
+  font-size: 0.8rem;
+}
+.take-test {
+  background-color: #cbc3e3;
+}
